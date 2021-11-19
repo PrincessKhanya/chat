@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="logo">
+                <h3>Support</h3>
+
+            </div>
+            <p id="your-name">Your Name</p>
+        </div>
+        <div class="chat-section">
+            <div class="main-wrapper">
+                <div class="chat-content">
+                    <div class="message">
+                        <div class="message-row other-message">
+                            <!-- <div class="message-title">
+                                <span>Support</span>
+                            </div>
+                            <div class="message-text">
+                                Hello
+                            </div>
+                            <div class="message-time">
+                                April 20
+                            </div> -->
+                        </div>
+                        <div class="message-row you-message">
+                            <!-- <div class="message-title">
+                                <span>User</span>
+                            </div>
+                            <div class="message-text">
+                                ok
+                            </div>
+                            <div class="message-time">
+                                April 20
+                            </div> -->
+                        </div>
+
+                    </div>
+
+                </div>   
+                <form  class="msg-text">
+                    <input type="text" name="msg"  id="msg">
+                    <button type="submit" id="btn-send">Send</button>
+                    
+
+                </form>                 
+            </div>
+
+        </div>
+        
+
+
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+    
+
+
+
+</body>
+</html>
